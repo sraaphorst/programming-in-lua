@@ -11,7 +11,7 @@ function ispali(s)
   return reverse(sp) == sp
 end
 
--- Chinese test. No idea how to clear out unicode punctuation but works for 。
+-- Chinese test. No idea how to clear out unicode punctuation: does not work for ， or 。 or ！
 zh = "我愛 爸爸 爸 爸 愛 我"
 print(ispali(zh))
 
